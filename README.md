@@ -132,15 +132,33 @@ Now, you have a Vite-powered React app with the selected project name, framework
 
 1. On GitHub, you'll now have two branches: `main` and `prod`. Go to your project's repository on GitHub.
 
+   ![image](https://github.com/zeeshanalikhan15/my-resume-test-app/assets/31096902/6a03f571-7c19-456a-a215-1ad49614984c)
+
+
 2. In the repository settings, navigate to the "GitHub Pages" section.
 
-3. Under "Source," select the `prod` branch and choose "Root" from the dropdown. Save the configuration.
+   ![image](https://github.com/zeeshanalikhan15/my-resume-test-app/assets/31096902/3d217322-2981-40de-b182-c0f94fecc62a)
+
+
+3. Under "Source," select the `prod` branch and choose `/root` from the dropdown. Save the configuration.
+
+   ![image](https://github.com/zeeshanalikhan15/my-resume-test-app/assets/31096902/cb4eb33b-a40f-4e21-9705-66e248212e74)
+
 
 ## Step 4: Publish Your Website
 
-1. Make a small change in your React app (e.g., edit `app.jsx`).
+1. Make a small change in your React app (e.g., edit `App.jsx`).
 
-2. Run the following command to deploy the changes to GitHub Pages:
+   ![image](https://github.com/zeeshanalikhan15/my-resume-test-app/assets/31096902/bef88146-66eb-46da-8642-3f6f9150a8e1)
+2. push changes to main
+
+   ```bash
+   git add .
+   git commit -m "small change in App.jsx"
+   git push origin main
+   ```
+
+3. Run the following command to deploy the changes to GitHub Pages:
 
    ```bash
    npm run deploy:prod
