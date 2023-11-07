@@ -27,3 +27,6 @@ git push --force origin prod
 
 # Switch back to the main branch
 git checkout main
+
+# Delete the local 'prod' branch
+git branch -D prod

@@ -12,6 +12,7 @@ function App() {
     <>
     <Intro/>
     <h1>this is a simple test</h1>
+    <p>and easy to do</p>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
