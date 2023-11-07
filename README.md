@@ -1,4 +1,4 @@
-# How to pusblish a site for free on Github using Vite React  
+# How to pusblish a porject site for free on Github using Vite React  
   
   
 ## Step 1: Create a Vite React App
