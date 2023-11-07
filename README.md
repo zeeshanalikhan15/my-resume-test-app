@@ -12,7 +12,7 @@
 2. When prompted, provide a name for your project. For example:
 
    ```
-   ? Project name: › test-proj
+   ? Project name: › my-resume-test-app
    ```
 
 3. Next, select "React" from the list of available JavaScript frameworks. Use the arrow keys to navigate and press Enter to select:
