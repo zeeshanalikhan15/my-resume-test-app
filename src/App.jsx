@@ -4,13 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Intro from './components/Intro/IntroSection'
 import Midro from './components/Midro/MidroSection'
+import ReactTestComponent1 from './components/ReactTestComponent/ReactTestComponent1'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Intro/>
+    
+      <ReactTestComponent1/>
+
+      <Intro/>
     <h1>this is a simple test</h1>
     <p>and easy to do</p>
       <div>
